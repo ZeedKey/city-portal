@@ -1,0 +1,50 @@
+.offer {
+    height: 100vh;
+    background-image: url('/icons/bg.png');
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    width: 50%;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.offer__subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    width: 30%;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.5);
+}
+.offer__subtitle button {
+    width: fit-content;
+    margin-top: 20px;
+}
+
+
+.posts-resolved {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}

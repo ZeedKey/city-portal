@@ -1,0 +1,72 @@
+body {
+    height: 100vh;
+    background-image: url("/icons/bg.png");
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.reg-form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.form__accept {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.form {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    gap: 20px;
+
+    text-align: center;
+}
+
+.form__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+.form__subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.form__fieldset {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 5px;
+    font-family: Roboto;
+}

@@ -1,0 +1,61 @@
+.account__welcome {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.account__info {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.account__info h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.account__filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.account__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.account__posts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
